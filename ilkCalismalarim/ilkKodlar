@@ -1,0 +1,15 @@
+isim1 = "IT çalismak çok güzel"
+isim2= "PHYTHON YENİ ÖĞRENİYORUM"
+
+print (len(isim1))
+print(isim2[8:13])
+print(isim1[-9: ])
+print(isim2[ :7])#baştan 7.indexe kadar
+print(isim2[ : :-1])#tersten yazar
+print(isim2[::2]) # ikişer atlayarak yazar
+
+s= 'abc '*3
+print(s)
+
+name,surname,age,job = 'zehra','demir','45','QA Tester'
+print('benim adım {1},soyadım {0},yasim {2},isim {3}'.format(name,surname,age,job))
